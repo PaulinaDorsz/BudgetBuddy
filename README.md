@@ -43,3 +43,22 @@ Reprezentuje wydarzenie w aplikacji. Posiada następujące pola:
 - `user_id`: Klucz obcy do użytkownika, który utworzył to wydarzenie.
 - `user`: Relacja z użytkownikiem, do którego przypisane jest wydarzenie.
 
+## Baza Danych
+
+Aplikacja wykorzystuje bazę danych PostgreSQL do przechowywania danych. Konfiguracja połączenia oraz inne ustawienia związane z bazą danych są przechowywane w obiekcie aplikacji Flask.
+
+### Konfiguracja Bazy Danych
+
+Aby połączyć się z bazą danych, aplikacja używa zmiennej środowiskowej do przechowywania danych uwierzytelniających, takich jak nazwa użytkownika, hasło, adres hosta oraz nazwa bazy danych. Konfiguracja bazy danych jest ustawiana w pliku `.env`, a następnie odczytywana i używana przez aplikację.
+
+### Ustawienia Aplikacji
+
+- `SQLALCHEMY_DATABASE_URI`: Adres URI bazy danych PostgreSQL, zbudowany na podstawie zmiennych środowiskowych.
+- `SECRET_KEY`: Klucz tajny aplikacji, wykorzystywany do zabezpieczenia sesji i innych danych.
+
+### Inne Ustawienia
+
+- `CORS`: Konfiguracja obsługi żądań międzydomenowych (CORS), umożliwiająca komunikację z zewnętrznymi zasobami.
+- `LoginManager`: Konfiguracja mechanizmu uwierzytelniania użytkowników, który umożliwia zarządzanie sesjami użytkowników i zabezpieczenia dostępu do poszczególnych części aplikacji.
+
+
