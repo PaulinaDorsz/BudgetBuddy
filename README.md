@@ -2,7 +2,7 @@
 
 ## Opis Projektu
 
-FlaskApp to aplikacja webowa napisana w oparciu o framework Flask w języku Python. Projekt ma na celu zarządzanie wydarzeniami użytkowników, umożliwiając im dodawanie, edytowanie i przeglądanie własnych wydarzeń. Dodatkowo, aplikacja posiada mechanizm uwierzytelniania użytkowników.
+BudgetBuddy to aplikacja webowa napisana w oparciu o framework Flask w języku Python. Projekt ma na celu zarządzanie wydarzeniami użytkowników, umożliwiając im dodawanie, edytowanie i przeglądanie własnych wydarzeń. Dodatkowo, aplikacja posiada mechanizm uwierzytelniania użytkowników.
 
 ## Technologie
 
