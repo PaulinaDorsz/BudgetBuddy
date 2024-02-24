@@ -56,9 +56,11 @@ Aby połączyć się z bazą danych, aplikacja używa zmiennej środowiskowej do
 - `SQLALCHEMY_DATABASE_URI`: Adres URI bazy danych PostgreSQL, zbudowany na podstawie zmiennych środowiskowych.
 - `SECRET_KEY`: Klucz tajny aplikacji, wykorzystywany do zabezpieczenia sesji i innych danych.
 
-### Inne Ustawienia
+## Autor 
+Paulina D. 
 
-- `CORS`: Konfiguracja obsługi żądań międzydomenowych (CORS), umożliwiająca komunikację z zewnętrznymi zasobami.
-- `LoginManager`: Konfiguracja mechanizmu uwierzytelniania użytkowników, który umożliwia zarządzanie sesjami użytkowników i zabezpieczenia dostępu do poszczególnych części aplikacji.
+## Licencja
+
+Ten projekt jest objęty [licencją MIT](https://couto.mit-license.org/). Szczegółowe informacje można znaleźć w pliku [LICENSE](LICENSE).
 
 
